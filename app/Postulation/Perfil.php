@@ -12,7 +12,7 @@ class Perfil
         return [
             'nombre_completo'   => 'José María Lanza',
             'email'             => 'lanza.josemaria@gmail.com',
-            'telefono'          => '(381)527420',
+            'telefono'          => '(381)5273420',
             'github'            => 'https://github.com/JoseMariaLanza'
         ];
     }
