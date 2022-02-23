@@ -44,7 +44,7 @@ class HabilidadesAdquiridas
 
     public function getHabilidades()
     {
-        $experiencia = Habilidad::getInstance();
-        return $experiencia->list();
+        $habilidades = Habilidad::getInstance();
+        return $habilidades->list();
     }
 }
