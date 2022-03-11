@@ -4,7 +4,7 @@
 
 ## Run CV-encode base structure 🏃
 
-Call any method within Profile or HabilidadesAdquiridas classes in artisan tinker. Here's an example:
+Call any method within Profile or AcquiredSkills classes in artisan tinker. Here's an example:
 > use App\Postulation\Profile;
 >
 > $profile = new Profile();
