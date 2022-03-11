@@ -4,56 +4,58 @@
 
 ## Run CV-encode base structure 🏃
 
-Call any method within Perfil or HabilidadesAdquiridas classes in artisan tinker. Here's an example:
-> use App\Postulation\Perfil;
+Call any method within Profile or HabilidadesAdquiridas classes in artisan tinker. Here's an example:
+> use App\Postulation\Profile;
 >
-> $perfil->addExperiencia();
+> $profile = new Profile();
 >
-> $perfil->getExperiencia();
+> $profile->addExperience();
+>
+> $profile->getExperience();
 
 The previous code returns ▶️
 
-    Illuminate\Support\Collection {
+    Illuminate\Support\Collection {#3514
      all: [
        [
-         "Empresa" => "Tensolite",
-         "Puesto" => "Desarrollador Full-Stack",
-         "Período" => "2021 - Actualmente",
+         "Company" => "Tensolite",
+         "Position" => "Full-Stack developer",
+         "Period" => "2021 - Currently",
        ],
        [
-         "Empresa" => "Freelance",
-         "Puesto" => "Desarrollador",
-         "Período" => "2016 - 2021",
+         "Company" => "Freelance",
+         "Position" => "softwareDeveloper",
+         "Period" => "2016 - 2021",
        ],
        [
-         "Proyecto" => "CV-encode",
-         "Año" => "2021",
-         "Observación" => "Tecnologías: Laravel",
+         "Project" => "CV-encode",
+         "Year" => "2021",
+         "Description" => "Technologies: Laravel",
        ],
        [
-         "Proyecto" => "CRUD Desarrolladores",
-         "Año" => "2021",
-         "Observación" => "Tecnologías: Laravel, React",
+         "Project" => "CRUD Devs",
+         "Year" => "2021",
+         "Description" => "Technologies: Laravel, React",
        ],
        [
-         "Proyecto" => "Escuelas Center - Web App",
-         "Año" => "2020",
-         "Observación" => "En desarrollo",
+         "Project" => "Center Schools - Web App",
+         "Year" => "2020",
+         "Description" => "On development",
        ],
        [
-         "Proyecto" => "re.Viewer",
-         "Año" => "2020",
-         "Observación" => "Tecnologías: HTML, CSS, JavaScript, Sólo mobile actualmente",
+         "Project" => "re.Viewer",
+         "Year" => "2020",
+         "Description" => "Technologies: HTML, CSS, JavaScript, Only mobile currently",
        ],
        [
-         "Proyecto" => "MiBar/Restto",
-         "Año" => "2019",
-         "Observación" => "Tecnologías: Laravel, Bootstrap, Vue.js",
+         "Project" => "MiBar/Restto",
+         "Year" => "2019",
+         "Description" => "Technologies: Laravel, Bootstrap, Vue.js",
        ],
        [
-         "Proyecto" => "Aplicación de Ventas",
-         "Año" => "2016",
-         "Observación" => "Tecnologías: C#",
+         "Project" => "Sales App",
+         "Year" => "2016",
+         "Description" => "Technologies: C#",
        ],
      ],
    }
