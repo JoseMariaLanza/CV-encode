@@ -1,5 +1,7 @@
 <?php
 
+namespace App\Postulation;
+
 use App\Postulation\Skill\Skill;
 use App\Postulation\Skill\Tool;
 use App\Postulation\Skill\Technology;
@@ -43,7 +45,7 @@ class AcquiredSkills
         $skill->add(new Knowledge('Good practices'));
     }
 
-    public function getskilles()
+    public function getskills()
     {
         $skills = skill::getInstance();
         return $skills->list();
